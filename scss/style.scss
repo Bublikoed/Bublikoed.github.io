@@ -190,6 +190,7 @@
 .more {
   color: #fff;
   padding-bottom: 70px;
+  padding-top: 70px;
   .grid {
     background: $color_main;
     &__left {
@@ -217,7 +218,15 @@
 }
 
 .form {
-  padding: 70px 0px;
+  padding: 88px 0px 148px 0px;
+  .grid {
+    &__left {
+      width: calc(47% - 15px);
+    }
+    &__right {
+      width: calc(53% - 15px);
+    }
+  }
   .inputs__wrap {
     width: 100%;
     display: flex;
@@ -289,6 +298,7 @@
       display: flex;
       flex-direction: column;
     }
+
   }
   &__sub-title {
     font-size: 45px;
@@ -316,6 +326,7 @@
     height: 100%;
     display: block;
     margin-left: auto;
+    margin-right: -36px;
   }
 }
 
