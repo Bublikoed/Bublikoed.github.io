@@ -58,6 +58,15 @@
 .content__blocks {
   padding-top: 143px;
   padding-bottom: 0px;
+  &.content__blocks2 {
+    padding-top: 60px;
+    ul li {
+      font-size: 28px;
+    }
+    p {
+      font-size: 28px;
+    }
+  }
   .grid {
     &__left {
       position: relative;
@@ -124,7 +133,7 @@
 
 .tabs {
   color: #fff;
-  padding-bottom: 20px;
+  //padding-bottom: 20px;
   .title__block {
     color: $color_main;
   }
